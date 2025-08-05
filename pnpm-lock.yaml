@@ -108,7 +108,7 @@ importers:
         version: 3.5.2
       '@vaadin/bundles':
         specifier: 24.8.4
-        version: 24.8.4(a4f9417fe2cf99798e28787c16684e2e)
+        version: 24.8.4(bnkhihqexbxbas6nsu3lgtnyee)
       '@vaadin/common-frontend':
         specifier: 0.0.19
         version: 0.0.19(lit@3.3.0)
@@ -186,8 +186,8 @@ importers:
         specifier: 7.27.1
         version: 7.27.1(@babel/core@7.28.0)
       '@preact/signals-react-transform':
-        specifier: 0.5.1
-        version: 0.5.1(@babel/core@7.28.0)(react@18.3.1)
+        specifier: 0.5.2
+        version: 0.5.2(@babel/core@7.28.0)(react@18.3.1)
       '@rollup/plugin-replace':
         specifier: 6.0.2
         version: 6.0.2(rollup@2.79.2)
@@ -1086,8 +1086,8 @@ packages:
   '@preact/signals-core@1.11.0':
     resolution: {integrity: sha512-jglbibeWHuFRzEWVFY/TT7wB1PppJxmcSfUHcK+2J9vBRtiooMfw6tAPttojNYrrpdGViqAYCbPpmWYlMm+eMQ==}
 
-  '@preact/signals-react-transform@0.5.1':
-    resolution: {integrity: sha512-/w1rgu7i/qDk8dhDj+6AVVVJ+b1W11YkP3vfPPPyrn1tDCPb8orYwETa3JCvYxMtJBHbvIYEjhXvZ8Ab2cWC8g==}
+  '@preact/signals-react-transform@0.5.2':
+    resolution: {integrity: sha512-mUAy3da1t1yatgo9/qBRI47l5HWd+vuEVOGwV6ocZTi3wKB0T/6HejQZxkIiNRp0KIAhFR/Hyzsg6t4TnQ6VEA==}
     peerDependencies:
       '@babel/core': ^7.0.0
       react: 18.3.1
@@ -4426,7 +4426,7 @@ snapshots:
 
   '@preact/signals-core@1.11.0': {}
 
-  '@preact/signals-react-transform@0.5.1(@babel/core@7.28.0)(react@18.3.1)':
+  '@preact/signals-react-transform@0.5.2(@babel/core@7.28.0)(react@18.3.1)':
     dependencies:
       '@babel/core': 7.28.0
       '@babel/helper-module-imports': 7.27.1
@@ -4687,7 +4687,7 @@ snapshots:
       '@vaadin/component-base': 24.8.4
       lit: 3.3.0
 
-  '@vaadin/bundles@24.8.4(a4f9417fe2cf99798e28787c16684e2e)':
+  '@vaadin/bundles@24.8.4(bnkhihqexbxbas6nsu3lgtnyee)':
     optionalDependencies:
       '@open-wc/dedupe-mixin': 1.4.0
       '@polymer/polymer': 3.5.2
