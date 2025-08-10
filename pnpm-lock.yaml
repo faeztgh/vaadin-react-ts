@@ -264,8 +264,8 @@ importers:
         specifier: 6.3.5
         version: 6.3.5(terser@5.43.1)
       vite-plugin-checker:
-        specifier: 0.9.3
-        version: 0.9.3(meow@13.2.0)(typescript@5.9.2)(vite@6.3.5(terser@5.43.1))
+        specifier: 0.10.2
+        version: 0.10.2(meow@13.2.0)(typescript@5.9.2)(vite@6.3.5(terser@5.43.1))
       workbox-build:
         specifier: 7.3.0
         version: 7.3.0(@types/babel__core@7.20.5)
@@ -3296,8 +3296,8 @@ packages:
     resolution: {integrity: sha512-c1Q0mCiPlgdTVVVIJIrBuxNicYE+t/7oKeI9MWLj3fh/uq2Pxh/3eeWbVZ4OcGW1TUf53At0njHw5SMdA3tmMg==}
     engines: {node: '>= 0.10'}
 
-  vite-plugin-checker@0.9.3:
-    resolution: {integrity: sha512-Tf7QBjeBtG7q11zG0lvoF38/2AVUzzhMNu+Wk+mcsJ00Rk/FpJ4rmUviVJpzWkagbU13cGXvKpt7CMiqtxVTbQ==}
+  vite-plugin-checker@0.10.2:
+    resolution: {integrity: sha512-FX9U8TnIS6AGOlqmC6O2YmkJzcZJRrjA03UF7FOhcUJ7it3HmCoxcIPMcoHliBP6EFOuNzle9K4c0JL4suRPow==}
     engines: {node: '>=14.16'}
     peerDependencies:
       '@biomejs/biome': '>=1.7'
@@ -3309,7 +3309,7 @@ packages:
       vite: '>=2.0.0'
       vls: '*'
       vti: '*'
-      vue-tsc: ~2.2.10
+      vue-tsc: ~2.2.10 || ^3.0.0
     peerDependenciesMeta:
       '@biomejs/biome':
         optional: true
@@ -7321,7 +7321,7 @@ snapshots:
 
   validator@13.12.0: {}
 
-  vite-plugin-checker@0.9.3(meow@13.2.0)(typescript@5.9.2)(vite@6.3.5(terser@5.43.1)):
+  vite-plugin-checker@0.10.2(meow@13.2.0)(typescript@5.9.2)(vite@6.3.5(terser@5.43.1)):
     dependencies:
       '@babel/code-frame': 7.27.1
       chokidar: 4.0.3
