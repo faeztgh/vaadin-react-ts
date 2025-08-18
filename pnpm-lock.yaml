@@ -219,8 +219,8 @@ importers:
         specifier: 24.8.5
         version: 24.8.5(lit@3.3.0)
       '@vaadin/hilla-generator-plugin-push':
-        specifier: 24.8.5
-        version: 24.8.5
+        specifier: 24.8.6
+        version: 24.8.6
       '@vaadin/hilla-generator-plugin-signals':
         specifier: 24.8.5
         version: 24.8.5
@@ -1684,12 +1684,16 @@ packages:
     resolution: {integrity: sha512-l4XHV3aXa6YC3exGSyr6WjB7R4R+Rrxl+LF6KhR7ZgG1/XCI7EDl+5xnAIq97fdxs2oQBkakvpUOy9CRBSCIPQ==}
     engines: {node: '>= 16.13'}
 
+  '@vaadin/hilla-generator-plugin-client@24.8.6':
+    resolution: {integrity: sha512-UyYTuNJleXEeaAyyHkUvylnfuL6KjC1NWFhlf5Nl/ZwWIV612ZyiPCAMjs3VHgwKk7sKkVdHhePsE1LRlgB5Sw==}
+    engines: {node: '>= 16.13'}
+
   '@vaadin/hilla-generator-plugin-model@24.8.5':
     resolution: {integrity: sha512-8/Qd1bWo5NMjJaciT4Bu4QRazaloDK7ueYCkjpDp/k94rlrGtm9E30m4/jim07dLfM/x/N7PEuR4q4lrjgjxww==}
     engines: {node: '>= 16.13'}
 
-  '@vaadin/hilla-generator-plugin-push@24.8.5':
-    resolution: {integrity: sha512-8WfabZXC1Ccr5xvWwPTVxeZ4xQDmB5mrA+/cup0qPBSTu0ZO8Q+1xW96Pp1dpW4CzrucvE1QRHqPHlUvIrzj2Q==}
+  '@vaadin/hilla-generator-plugin-push@24.8.6':
+    resolution: {integrity: sha512-Vh1Jke7WY3vWCr2aWSRbkzbBXFoJf2Ji6VdMsogzG8Ia6KeladM8Z7VnxPb9bjSm6AegIGCyf7fuCB/nh6WJMw==}
     engines: {node: '>= 16.13'}
 
   '@vaadin/hilla-generator-plugin-signals@24.8.5':
@@ -5149,6 +5153,12 @@ snapshots:
       '@vaadin/hilla-generator-utils': 24.8.5
       typescript: 5.8.3
 
+  '@vaadin/hilla-generator-plugin-client@24.8.6':
+    dependencies:
+      '@vaadin/hilla-generator-core': 24.8.6
+      '@vaadin/hilla-generator-utils': 24.8.6
+      typescript: 5.8.3
+
   '@vaadin/hilla-generator-plugin-model@24.8.5(lit@3.3.0)':
     dependencies:
       '@vaadin/hilla-generator-core': 24.8.5
@@ -5163,11 +5173,11 @@ snapshots:
       - lit
       - utf-8-validate
 
-  '@vaadin/hilla-generator-plugin-push@24.8.5':
+  '@vaadin/hilla-generator-plugin-push@24.8.6':
     dependencies:
-      '@vaadin/hilla-generator-core': 24.8.5
-      '@vaadin/hilla-generator-plugin-client': 24.8.5
-      '@vaadin/hilla-generator-utils': 24.8.5
+      '@vaadin/hilla-generator-core': 24.8.6
+      '@vaadin/hilla-generator-plugin-client': 24.8.6
+      '@vaadin/hilla-generator-utils': 24.8.6
       fast-deep-equal: 3.1.3
       openapi-types: 12.1.3
       typescript: 5.8.3
