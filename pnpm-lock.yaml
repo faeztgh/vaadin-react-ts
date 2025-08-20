@@ -228,8 +228,8 @@ importers:
         specifier: 24.8.5
         version: 24.8.5(lit@3.3.0)
       '@vaadin/hilla-generator-plugin-transfertypes':
-        specifier: 24.8.5
-        version: 24.8.5(lit@3.3.0)
+        specifier: 24.8.6
+        version: 24.8.6(lit@3.3.0)
       '@vaadin/hilla-generator-utils':
         specifier: 24.8.6
         version: 24.8.6
@@ -1676,6 +1676,10 @@ packages:
     resolution: {integrity: sha512-HC2Quk04MBzBzfC46CYAM2h/CiB4NfJTeApILkNxzjoES81PsLuqLjUdkvmz6FsWVfHEfw1eBqWxz/P2H7mddg==}
     engines: {node: '>= 16.13'}
 
+  '@vaadin/hilla-generator-plugin-backbone@24.8.6':
+    resolution: {integrity: sha512-jNZd1MtQQceNNVhYf/tHqvnOvnzwFIq9NuEEqTwLFreW0cR4L1XwghCm34MlHP2+4BH8tacalyeLPEYBS3LqjQ==}
+    engines: {node: '>= 16.13'}
+
   '@vaadin/hilla-generator-plugin-barrel@24.8.5':
     resolution: {integrity: sha512-05P3pfpd99WVQcXaTA+bSZMR2kqBkuwEHFUMtyJrH5kxsF5XMq2y+L+a9kY2HKgxmMh32SKJFo6KHYn10KxvVg==}
     engines: {node: '>= 16.13'}
@@ -1692,6 +1696,10 @@ packages:
     resolution: {integrity: sha512-8/Qd1bWo5NMjJaciT4Bu4QRazaloDK7ueYCkjpDp/k94rlrGtm9E30m4/jim07dLfM/x/N7PEuR4q4lrjgjxww==}
     engines: {node: '>= 16.13'}
 
+  '@vaadin/hilla-generator-plugin-model@24.8.6':
+    resolution: {integrity: sha512-ye64nIUIqK0ySpgF+j7aGlfwhI+IvTRDuZ3kZWjVnEEDr3Am/NZk7XO+zZDd+YuIMPBUkCr1NNdXoN39AtIzMw==}
+    engines: {node: '>= 16.13'}
+
   '@vaadin/hilla-generator-plugin-push@24.8.6':
     resolution: {integrity: sha512-Vh1Jke7WY3vWCr2aWSRbkzbBXFoJf2Ji6VdMsogzG8Ia6KeladM8Z7VnxPb9bjSm6AegIGCyf7fuCB/nh6WJMw==}
     engines: {node: '>= 16.13'}
@@ -1704,8 +1712,8 @@ packages:
     resolution: {integrity: sha512-UeGwXDISC2T77/I9DPzjRBRpwek4StXq6a6AF92Rorr9ndmc903SQIwEHzVQE1U5U8sZjGhObwXOmzgrQUAXHA==}
     engines: {node: '>= 16.13'}
 
-  '@vaadin/hilla-generator-plugin-transfertypes@24.8.5':
-    resolution: {integrity: sha512-LgclvKgveiZm5+d3xtWUe0ssHD9qMUICYO13vh0Oy20WJdut0zU+ViHykK2HoSx19OyHT6ikOzOL5AJCZlx/Gw==}
+  '@vaadin/hilla-generator-plugin-transfertypes@24.8.6':
+    resolution: {integrity: sha512-M+Cni0IjOo+AbpaZL1lkcVFsXmGEiQ/s0iQ18DRPAeQqiHwJYxD8zSD8SHT4q63+KUXrHSlc1z1IeckF9TKU9Q==}
     engines: {node: '>= 16.13'}
 
   '@vaadin/hilla-generator-utils@24.8.5':
@@ -5140,6 +5148,15 @@ snapshots:
       openapi-types: 12.1.3
       typescript: 5.8.3
 
+  '@vaadin/hilla-generator-plugin-backbone@24.8.6':
+    dependencies:
+      '@vaadin/hilla-generator-core': 24.8.6
+      '@vaadin/hilla-generator-plugin-client': 24.8.6
+      '@vaadin/hilla-generator-utils': 24.8.6
+      fast-deep-equal: 3.1.3
+      openapi-types: 12.1.3
+      typescript: 5.8.3
+
   '@vaadin/hilla-generator-plugin-barrel@24.8.5':
     dependencies:
       '@vaadin/hilla-generator-core': 24.8.5
@@ -5164,6 +5181,20 @@ snapshots:
       '@vaadin/hilla-generator-core': 24.8.5
       '@vaadin/hilla-generator-plugin-backbone': 24.8.5
       '@vaadin/hilla-generator-utils': 24.8.5
+      '@vaadin/hilla-lit-form': 24.8.5(lit@3.3.0)
+      fast-deep-equal: 3.1.3
+      openapi-types: 12.1.3
+      typescript: 5.8.3
+    transitivePeerDependencies:
+      - bufferutil
+      - lit
+      - utf-8-validate
+
+  '@vaadin/hilla-generator-plugin-model@24.8.6(lit@3.3.0)':
+    dependencies:
+      '@vaadin/hilla-generator-core': 24.8.6
+      '@vaadin/hilla-generator-plugin-backbone': 24.8.6
+      '@vaadin/hilla-generator-utils': 24.8.6
       '@vaadin/hilla-lit-form': 24.8.5(lit@3.3.0)
       fast-deep-equal: 3.1.3
       openapi-types: 12.1.3
@@ -5206,12 +5237,12 @@ snapshots:
       - lit
       - utf-8-validate
 
-  '@vaadin/hilla-generator-plugin-transfertypes@24.8.5(lit@3.3.0)':
+  '@vaadin/hilla-generator-plugin-transfertypes@24.8.6(lit@3.3.0)':
     dependencies:
-      '@vaadin/hilla-generator-core': 24.8.5
-      '@vaadin/hilla-generator-plugin-client': 24.8.5
-      '@vaadin/hilla-generator-plugin-model': 24.8.5(lit@3.3.0)
-      '@vaadin/hilla-generator-utils': 24.8.5
+      '@vaadin/hilla-generator-core': 24.8.6
+      '@vaadin/hilla-generator-plugin-client': 24.8.6
+      '@vaadin/hilla-generator-plugin-model': 24.8.6(lit@3.3.0)
+      '@vaadin/hilla-generator-utils': 24.8.6
       fast-deep-equal: 3.1.3
       openapi-types: 12.1.3
       typescript: 5.8.3
