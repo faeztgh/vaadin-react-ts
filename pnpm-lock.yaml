@@ -20,7 +20,7 @@ overrides:
   '@vaadin/hilla-react-crud': 24.8.5
   '@vaadin/hilla-file-router': 24.8.5
   construct-style-sheets-polyfill: 3.1.0
-  '@vaadin/hilla-react-i18n': 24.8.5
+  '@vaadin/hilla-react-i18n': 24.8.9
   lit: 3.3.0
   '@polymer/polymer': 3.5.2
   '@vaadin/hilla-lit-form': 24.8.5
@@ -131,8 +131,8 @@ importers:
         specifier: 24.8.5
         version: 24.8.5(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@vaadin/hilla-react-i18n':
-        specifier: 24.8.5
-        version: 24.8.5(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: 24.8.9
+        version: 24.8.9(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@vaadin/hilla-react-signals':
         specifier: 24.8.5
         version: 24.8.5(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -1770,8 +1770,8 @@ packages:
       react: 18.3.1
       react-dom: 18.3.1
 
-  '@vaadin/hilla-react-i18n@24.8.5':
-    resolution: {integrity: sha512-zq+m1TC1Ep/NYZbHJ/RejV/ZqPHyUdaXubDMog8GYlDaqFo5gHG1J1O391lu+guCnvZKTdDWDo8b8dkpqEzplA==}
+  '@vaadin/hilla-react-i18n@24.8.9':
+    resolution: {integrity: sha512-Qu4yqtRAchlVHD0V2h5U5kILrbCoOz9lAmnXQYyRT0w3S4PcvaqtFsLS5uCJaEe0VFD4IuicpHGj7DCznINq3Q==}
     peerDependencies:
       react: 18.3.1
       react-dom: 18.3.1
@@ -5363,7 +5363,7 @@ snapshots:
       - lit
       - utf-8-validate
 
-  '@vaadin/hilla-react-i18n@24.8.5(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@vaadin/hilla-react-i18n@24.8.9(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@vaadin/hilla-frontend': 24.8.5(lit@3.3.0)
       '@vaadin/hilla-react-signals': 24.8.5(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
