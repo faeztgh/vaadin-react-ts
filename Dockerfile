@@ -15,7 +15,7 @@ COPY src ./src
 RUN mvn clean package -DskipTests
 
 # Runtime stage
-FROM eclipse-temurin:19-jre-alpine
+FROM eclipse-temurin:25-jre-alpine
 
 # Install necessary packages
 RUN apk add --no-cache \
