@@ -17,7 +17,7 @@ overrides:
   '@vaadin/hilla-react-auth': 24.8.5
   react: 18.3.1
   react-router: 7.6.1
-  '@vaadin/hilla-react-crud': 24.8.5
+  '@vaadin/hilla-react-crud': 24.8.9
   '@vaadin/hilla-file-router': 24.8.5
   construct-style-sheets-polyfill: 3.1.0
   '@vaadin/hilla-react-i18n': 24.8.9
@@ -108,7 +108,7 @@ importers:
         version: 3.5.2
       '@vaadin/bundles':
         specifier: 24.8.4
-        version: 24.8.4(bnkhihqexbxbas6nsu3lgtnyee)
+        version: 24.8.4(a4f9417fe2cf99798e28787c16684e2e)
       '@vaadin/common-frontend':
         specifier: 0.0.19
         version: 0.0.19(lit@3.3.0)
@@ -125,8 +125,8 @@ importers:
         specifier: 24.8.5
         version: 24.8.5(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react-router@7.6.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
       '@vaadin/hilla-react-crud':
-        specifier: 24.8.5
-        version: 24.8.5(@types/react-dom@18.3.7(@types/react@18.3.23))(@types/react@18.3.23)(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: 24.8.9
+        version: 24.8.9(@types/react-dom@18.3.7(@types/react@18.3.23))(@types/react@18.3.23)(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@vaadin/hilla-react-form':
         specifier: 24.8.5
         version: 24.8.5(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -1758,8 +1758,8 @@ packages:
       react-dom: 18.3.1
       react-router: 7.6.1
 
-  '@vaadin/hilla-react-crud@24.8.5':
-    resolution: {integrity: sha512-zWXg6TPKcdQt1j/92jTYerihMvUyQ6i6X5FLRbe3tPRI+zpk0VbsLAfvoXGln7ma585E2e/kLe1RGi57KlHEbQ==}
+  '@vaadin/hilla-react-crud@24.8.9':
+    resolution: {integrity: sha512-DednnZ5eQtWcWlQpMEaHos3hVz/SXbXP0d+oR7sipoVk8fIsdIPFIE+6NCZiGHaJP9TG5NhQaWbqv8PMwD73/g==}
     peerDependencies:
       react: 18.3.1
       react-dom: 18.3.1
@@ -4756,7 +4756,7 @@ snapshots:
       '@vaadin/component-base': 24.8.4
       lit: 3.3.0
 
-  '@vaadin/bundles@24.8.4(bnkhihqexbxbas6nsu3lgtnyee)':
+  '@vaadin/bundles@24.8.4(a4f9417fe2cf99798e28787c16684e2e)':
     optionalDependencies:
       '@open-wc/dedupe-mixin': 1.4.0
       '@polymer/polymer': 3.5.2
@@ -5336,7 +5336,7 @@ snapshots:
       - lit
       - utf-8-validate
 
-  '@vaadin/hilla-react-crud@24.8.5(@types/react-dom@18.3.7(@types/react@18.3.23))(@types/react@18.3.23)(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@vaadin/hilla-react-crud@24.8.9(@types/react-dom@18.3.7(@types/react@18.3.23))(@types/react@18.3.23)(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@vaadin/hilla-frontend': 24.8.5(lit@3.3.0)
       '@vaadin/hilla-lit-form': 24.8.5(lit@3.3.0)
