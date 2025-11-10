@@ -27,7 +27,7 @@ overrides:
   '@vaadin/hilla-react-form': 24.8.5
   '@vaadin/hilla-react-signals': 24.8.5
   date-fns: 2.29.3
-  proj4: 2.15.0
+  proj4: 2.19.10
   '@vaadin/vaadin-themable-mixin': 24.8.4
   '@vaadin/vaadin-lumo-styles': 24.8.4
   '@vaadin/vaadin-material-styles': 24.8.4
@@ -170,8 +170,8 @@ importers:
         specifier: 3.3.0
         version: 3.3.0
       proj4:
-        specifier: 2.15.0
-        version: 2.15.0
+        specifier: 2.19.10
+        version: 2.19.10
       react:
         specifier: 18.3.1
         version: 18.3.1
@@ -2891,8 +2891,8 @@ packages:
     resolution: {integrity: sha512-cdGef/drWFoydD1JsMzuFf8100nZl+GT+yacc2bEced5f9Rjk4z+WtFUTBu9PhOi9j/jfmBPu0mMEY4wIdAF8A==}
     engines: {node: '>= 0.6.0'}
 
-  proj4@2.15.0:
-    resolution: {integrity: sha512-LqCNEcPdI03BrCHxPLj29vsd5afsm+0sV1H/O3nTDKrv8/LA01ea1z4QADDMjUqxSXWnrmmQDjqFm1J/uZ5RLw==}
+  proj4@2.19.10:
+    resolution: {integrity: sha512-uL6/C6kA8+ncJAEDmUeV8PmNJcTlRLDZZa4/87CzRpb8My4p+Ame4LhC4G3H/77z2icVqcu3nNL9h5buSdnY+g==}
 
   protocol-buffers-schema@3.6.0:
     resolution: {integrity: sha512-TdDRD+/QNdrCGCE7v8340QyuXd4kIWIgapsE2+n/SaGiSSbomYl4TjHlvIoCWRpE7wFt02EpB35VVA2ImcBVqw==}
@@ -6944,7 +6944,7 @@ snapshots:
 
   process@0.11.10: {}
 
-  proj4@2.15.0:
+  proj4@2.19.10:
     dependencies:
       mgrs: 1.0.0
       wkt-parser: 1.5.2
