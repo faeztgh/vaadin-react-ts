@@ -34,7 +34,7 @@
 			spring-boot-starter-parent
 		</artifactId>
 		<version>
-			3.5.7
+			3.5.8
 		</version>
 		<relativePath />
 	</parent>
