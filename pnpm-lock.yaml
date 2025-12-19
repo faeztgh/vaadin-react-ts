@@ -26,7 +26,7 @@ overrides:
   '@vaadin/hilla-lit-form': 24.8.5
   '@vaadin/hilla-react-form': 24.8.5
   '@vaadin/hilla-react-signals': 24.8.5
-  date-fns: 2.29.3
+  date-fns: 4.1.0
   proj4: 2.15.0
   '@vaadin/vaadin-themable-mixin': 24.8.4
   '@vaadin/vaadin-lumo-styles': 24.8.4
@@ -108,7 +108,7 @@ importers:
         version: 3.5.2
       '@vaadin/bundles':
         specifier: 24.8.4
-        version: 24.8.4(a4f9417fe2cf99798e28787c16684e2e)
+        version: 24.8.4(bnkhihqexbxbas6nsu3lgtnyee)
       '@vaadin/common-frontend':
         specifier: 0.0.19
         version: 0.0.19(lit@3.3.0)
@@ -164,8 +164,8 @@ importers:
         specifier: 3.1.0
         version: 3.1.0
       date-fns:
-        specifier: 2.29.3
-        version: 2.29.3
+        specifier: 4.1.0
+        version: 4.1.0
       lit:
         specifier: 3.3.0
         version: 3.3.0
@@ -2198,9 +2198,8 @@ packages:
     resolution: {integrity: sha512-BS8PfmtDGnrgYdOonGZQdLZslWIeCGFP9tpan0hi1Co2Zr2NKADsvGYA8XxuG/4UWgJ6Cjtv+YJnB6MM69QGlQ==}
     engines: {node: '>= 0.4'}
 
-  date-fns@2.29.3:
-    resolution: {integrity: sha512-dDCnyH2WnnKusqvZZ6+jA1O51Ibt8ZMRNkDZdyAyK4YfbDwa/cEmuztzG5pk6hqlp9aSBPYcjOlktquahGwGeA==}
-    engines: {node: '>=0.11'}
+  date-fns@4.1.0:
+    resolution: {integrity: sha512-Ukq0owbQXxa/U3EGtsdVBkR1w7KOQ5gIBqdH2hkvknzZPYvBxb/aa6E8L7tmjFtkwZBu3UXBbjIgPo/Ez4xaNg==}
 
   dateformat@4.6.3:
     resolution: {integrity: sha512-2P0p0pFGzHS5EMnhdxQi7aJN+iMheud0UhG4dlE1DLAlvL8JHjJJTX/CSm4JXwV0Ka5nGk3zC5mcb5bUQUxxMA==}
@@ -4772,7 +4771,7 @@ snapshots:
       '@vaadin/component-base': 24.8.4
       lit: 3.3.0
 
-  '@vaadin/bundles@24.8.4(a4f9417fe2cf99798e28787c16684e2e)':
+  '@vaadin/bundles@24.8.4(bnkhihqexbxbas6nsu3lgtnyee)':
     optionalDependencies:
       '@open-wc/dedupe-mixin': 1.4.0
       '@polymer/polymer': 3.5.2
@@ -6224,7 +6223,7 @@ snapshots:
       es-errors: 1.3.0
       is-data-view: 1.0.2
 
-  date-fns@2.29.3: {}
+  date-fns@4.1.0: {}
 
   dateformat@4.6.3: {}
 
