@@ -1,5 +1,5 @@
 # Multi-stage build for E-commerce Admin Dashboard
-FROM maven:3.9-eclipse-temurin-11 AS build
+FROM maven:3.9.11-eclipse-temurin-25 AS build
 
 # Set working directory
 WORKDIR /app
