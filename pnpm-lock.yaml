@@ -24,7 +24,7 @@ overrides:
   lit: 3.3.0
   '@polymer/polymer': 3.5.2
   '@vaadin/hilla-lit-form': 24.8.5
-  '@vaadin/hilla-react-form': 24.8.5
+  '@vaadin/hilla-react-form': 25.0.0
   '@vaadin/hilla-react-signals': 24.8.5
   date-fns: 4.1.0
   proj4: 2.15.0
@@ -108,7 +108,7 @@ importers:
         version: 3.5.2
       '@vaadin/bundles':
         specifier: 24.8.4
-        version: 24.8.4(bnkhihqexbxbas6nsu3lgtnyee)
+        version: 24.8.4(a4f9417fe2cf99798e28787c16684e2e)
       '@vaadin/common-frontend':
         specifier: 0.0.19
         version: 0.0.19(lit@3.3.0)
@@ -128,8 +128,8 @@ importers:
         specifier: 24.8.5
         version: 24.8.5(@types/react-dom@18.3.7(@types/react@18.3.23))(@types/react@18.3.23)(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@vaadin/hilla-react-form':
-        specifier: 24.8.5
-        version: 24.8.5(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: 25.0.0
+        version: 25.0.0(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@vaadin/hilla-react-i18n':
         specifier: 24.8.9
         version: 24.8.9(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -1797,8 +1797,8 @@ packages:
       react: 18.3.1
       react-dom: 18.3.1
 
-  '@vaadin/hilla-react-form@24.8.5':
-    resolution: {integrity: sha512-Gqf6JU/JN1Qx5O0lpP+qChY8VKJHCNV+tp6QVNzeqTr9TMV9VXrhJQQIyEMf9lP5FVbd2RO1UdsENfZWngG4cQ==}
+  '@vaadin/hilla-react-form@25.0.0':
+    resolution: {integrity: sha512-mCrEOXTo71MupHlDcylvgAg7RsqKoX2ciXxDzAui4+BQU2oMVEeOFaUEpWhouzyQzDBgkPbBoDDfw3r7c1jvMA==}
     peerDependencies:
       react: 18.3.1
       react-dom: 18.3.1
@@ -4834,7 +4834,7 @@ snapshots:
       '@vaadin/component-base': 24.8.4
       lit: 3.3.0
 
-  '@vaadin/bundles@24.8.4(bnkhihqexbxbas6nsu3lgtnyee)':
+  '@vaadin/bundles@24.8.4(a4f9417fe2cf99798e28787c16684e2e)':
     optionalDependencies:
       '@open-wc/dedupe-mixin': 1.4.0
       '@polymer/polymer': 3.5.2
@@ -5432,7 +5432,7 @@ snapshots:
     dependencies:
       '@vaadin/hilla-frontend': 24.8.5(lit@3.3.0)
       '@vaadin/hilla-lit-form': 24.8.5(lit@3.3.0)
-      '@vaadin/hilla-react-form': 24.8.5(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@vaadin/hilla-react-form': 25.0.0(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@vaadin/react-components': 24.8.4(@types/react-dom@18.3.7(@types/react@18.3.23))(@types/react@18.3.23)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@vaadin/vaadin-lumo-styles': 24.8.4
       react: 18.3.1
@@ -5445,7 +5445,7 @@ snapshots:
       - lit
       - utf-8-validate
 
-  '@vaadin/hilla-react-form@24.8.5(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@vaadin/hilla-react-form@25.0.0(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@vaadin/hilla-lit-form': 24.8.5(lit@3.3.0)
       react: 18.3.1
