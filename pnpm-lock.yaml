@@ -24,7 +24,7 @@ overrides:
   lit: 3.3.0
   '@polymer/polymer': 3.5.2
   '@vaadin/hilla-lit-form': 24.8.5
-  '@vaadin/hilla-react-form': 24.8.5
+  '@vaadin/hilla-react-form': 25.0.2
   '@vaadin/hilla-react-signals': 24.8.5
   date-fns: 4.1.0
   proj4: 2.15.0
@@ -128,8 +128,8 @@ importers:
         specifier: 24.8.5
         version: 24.8.5(@types/react-dom@18.3.7(@types/react@18.3.23))(@types/react@18.3.23)(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@vaadin/hilla-react-form':
-        specifier: 24.8.5
-        version: 24.8.5(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: 25.0.2
+        version: 25.0.2(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@vaadin/hilla-react-i18n':
         specifier: 24.8.9
         version: 24.8.9(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -1813,8 +1813,8 @@ packages:
       react: 18.3.1
       react-dom: 18.3.1
 
-  '@vaadin/hilla-react-form@24.8.5':
-    resolution: {integrity: sha512-Gqf6JU/JN1Qx5O0lpP+qChY8VKJHCNV+tp6QVNzeqTr9TMV9VXrhJQQIyEMf9lP5FVbd2RO1UdsENfZWngG4cQ==}
+  '@vaadin/hilla-react-form@25.0.2':
+    resolution: {integrity: sha512-G3xHs+HCXMgxven9nnnawRfyDedaGXgisafI4VMK4iaZxoD4QlUZ9FWyfrAUx9VFCUkYxCmWgjwg8BZ9Kie1Tw==}
     peerDependencies:
       react: 18.3.1
       react-dom: 18.3.1
@@ -5421,7 +5421,7 @@ snapshots:
     dependencies:
       '@vaadin/hilla-frontend': 24.8.5(lit@3.3.0)
       '@vaadin/hilla-lit-form': 24.8.5(lit@3.3.0)
-      '@vaadin/hilla-react-form': 24.8.5(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@vaadin/hilla-react-form': 25.0.2(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@vaadin/react-components': 24.8.4(@types/react-dom@18.3.7(@types/react@18.3.23))(@types/react@18.3.23)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@vaadin/vaadin-lumo-styles': 24.8.4
       react: 18.3.1
@@ -5434,7 +5434,7 @@ snapshots:
       - lit
       - utf-8-validate
 
-  '@vaadin/hilla-react-form@24.8.5(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@vaadin/hilla-react-form@25.0.2(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@vaadin/hilla-lit-form': 24.8.5(lit@3.3.0)
       react: 18.3.1
