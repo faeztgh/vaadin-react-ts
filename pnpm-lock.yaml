@@ -25,7 +25,7 @@ overrides:
   '@polymer/polymer': 3.5.2
   '@vaadin/hilla-lit-form': 24.8.5
   '@vaadin/hilla-react-form': 25.0.2
-  '@vaadin/hilla-react-signals': 24.8.5
+  '@vaadin/hilla-react-signals': 25.0.2
   date-fns: 4.1.0
   proj4: 2.15.0
   '@vaadin/vaadin-themable-mixin': 24.8.4
@@ -134,8 +134,8 @@ importers:
         specifier: 24.8.9
         version: 24.8.9(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@vaadin/hilla-react-signals':
-        specifier: 24.8.5
-        version: 24.8.5(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: 25.0.2
+        version: 25.0.2(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@vaadin/polymer-legacy-adapter':
         specifier: 24.8.4
         version: 24.8.4
@@ -1101,9 +1101,6 @@ packages:
   '@polymer/polymer@3.5.2':
     resolution: {integrity: sha512-fWwImY/UH4bb2534DVSaX+Azs2yKg8slkMBHOyGeU2kKx7Xmxp6Lee0jP8p6B3d7c1gFUPB2Z976dTUtX81pQA==}
 
-  '@preact/signals-core@1.11.0':
-    resolution: {integrity: sha512-jglbibeWHuFRzEWVFY/TT7wB1PppJxmcSfUHcK+2J9vBRtiooMfw6tAPttojNYrrpdGViqAYCbPpmWYlMm+eMQ==}
-
   '@preact/signals-core@1.12.1':
     resolution: {integrity: sha512-BwbTXpj+9QutoZLQvbttRg5x3l5468qaV2kufh+51yha1c53ep5dY4kTuZR35+3pAZxpfQerGJiQqg34ZNZ6uA==}
 
@@ -1837,8 +1834,8 @@ packages:
       react: 18.3.1
       react-dom: 18.3.1
 
-  '@vaadin/hilla-react-signals@24.8.5':
-    resolution: {integrity: sha512-0bTMknaN2MIKQaU3LvPT2Gg28f3AsC5kQ25pMeLbLNFLreBcHU+hy6pUDh5idiTBF8Hzm7d84J1SB8qI8a9L9w==}
+  '@vaadin/hilla-react-signals@25.0.2':
+    resolution: {integrity: sha512-4RKWKO25Wfw5ykNPtLl19L6eD7scdNCfn1gLJW0LeG4Fx0naiNmli/Ju51UE9i7uRCr99By7GD6wwWfqSRo43g==}
     peerDependencies:
       react: 18.3.1
       react-dom: 18.3.1
@@ -3366,6 +3363,11 @@ packages:
     peerDependencies:
       react: 18.3.1
 
+  use-sync-external-store@1.6.0:
+    resolution: {integrity: sha512-Pp6GSwGP/NrPIrxVFAIkOQeyw8lFenOHijQWkUTrDvrF4ALqylP2C/KCkeS9dpUM3KvYRQhna5vt7IL95+ZQ9w==}
+    peerDependencies:
+      react: 18.3.1
+
   validator@13.12.0:
     resolution: {integrity: sha512-c1Q0mCiPlgdTVVVIJIrBuxNicYE+t/7oKeI9MWLj3fh/uq2Pxh/3eeWbVZ4OcGW1TUf53At0njHw5SMdA3tmMg==}
     engines: {node: '>= 0.10'}
@@ -4521,8 +4523,6 @@ snapshots:
     dependencies:
       '@webcomponents/shadycss': 1.11.2
 
-  '@preact/signals-core@1.11.0': {}
-
   '@preact/signals-core@1.12.1': {}
 
   '@preact/signals-react-transform@0.6.0(@babel/core@7.28.0)(react@18.3.1)':
@@ -4539,9 +4539,9 @@ snapshots:
 
   '@preact/signals-react@3.0.1(react@18.3.1)':
     dependencies:
-      '@preact/signals-core': 1.11.0
+      '@preact/signals-core': 1.12.1
       react: 18.3.1
-      use-sync-external-store: 1.5.0(react@18.3.1)
+      use-sync-external-store: 1.6.0(react@18.3.1)
 
   '@preact/signals-react@3.3.0(react@18.3.1)':
     dependencies:
@@ -5166,7 +5166,7 @@ snapshots:
       '@ungap/with-resolvers': 0.1.0
       '@vaadin/hilla-generator-utils': 24.8.5
       '@vaadin/hilla-react-auth': 24.8.5(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react-router@7.6.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
-      '@vaadin/hilla-react-signals': 24.8.5(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@vaadin/hilla-react-signals': 25.0.2(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
       react-router: 7.6.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -5479,7 +5479,7 @@ snapshots:
   '@vaadin/hilla-react-i18n@24.8.9(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@vaadin/hilla-frontend': 24.8.5(lit@3.3.0)
-      '@vaadin/hilla-react-signals': 24.8.5(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@vaadin/hilla-react-signals': 25.0.2(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       intl-messageformat: 10.7.11
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -5488,7 +5488,7 @@ snapshots:
       - lit
       - utf-8-validate
 
-  '@vaadin/hilla-react-signals@24.8.5(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@vaadin/hilla-react-signals@25.0.2(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@preact/signals-react': 3.0.1(react@18.3.1)
       '@vaadin/hilla-frontend': 24.8.5(lit@3.3.0)
@@ -7538,6 +7538,10 @@ snapshots:
       picocolors: 1.1.1
 
   use-sync-external-store@1.5.0(react@18.3.1):
+    dependencies:
+      react: 18.3.1
+
+  use-sync-external-store@1.6.0(react@18.3.1):
     dependencies:
       react: 18.3.1
 
