@@ -210,8 +210,8 @@ importers:
         specifier: 24.8.5
         version: 24.8.5
       '@vaadin/hilla-generator-plugin-barrel':
-        specifier: 24.8.5
-        version: 24.8.5
+        specifier: 25.0.2
+        version: 25.0.2
       '@vaadin/hilla-generator-plugin-client':
         specifier: 25.0.2
         version: 25.0.2
@@ -1727,8 +1727,12 @@ packages:
     resolution: {integrity: sha512-Tew2DeaAaRCI/iwN1Kep9IWsgdOPiq0gBh+9y+UKSt5tZLHLYzAyP6e1D+LKUIGDBC6GKQDOKUrkD/cxgPUPFw==}
     engines: {node: '>= 16.13'}
 
-  '@vaadin/hilla-generator-plugin-barrel@24.8.5':
-    resolution: {integrity: sha512-05P3pfpd99WVQcXaTA+bSZMR2kqBkuwEHFUMtyJrH5kxsF5XMq2y+L+a9kY2HKgxmMh32SKJFo6KHYn10KxvVg==}
+  '@vaadin/hilla-generator-plugin-backbone@25.0.2':
+    resolution: {integrity: sha512-FVYcR19QOYhH/SwrnB49VfsXLMRLA9OH6+SerlsWDS4k/8JarDkI+hyeE3sTBGUDgddJAAPX7p+qxPtyKVsMmg==}
+    engines: {node: '>= 16.13'}
+
+  '@vaadin/hilla-generator-plugin-barrel@25.0.2':
+    resolution: {integrity: sha512-44SD3QNHB9TrMPdAmW/DBKh2Z1dktcSAcrQWyt1IHDCahrvZZ/WQxxqJavryp2dbk++nZ0dfRH94GGKo+VROKw==}
     engines: {node: '>= 16.13'}
 
   '@vaadin/hilla-generator-plugin-client@24.8.5':
@@ -5251,12 +5255,21 @@ snapshots:
       openapi-types: 12.1.3
       typescript: 5.9.3
 
-  '@vaadin/hilla-generator-plugin-barrel@24.8.5':
+  '@vaadin/hilla-generator-plugin-backbone@25.0.2':
     dependencies:
-      '@vaadin/hilla-generator-core': 24.8.5
-      '@vaadin/hilla-generator-plugin-backbone': 24.8.5
-      '@vaadin/hilla-generator-utils': 24.8.5
-      typescript: 5.8.3
+      '@vaadin/hilla-generator-core': 25.0.2
+      '@vaadin/hilla-generator-plugin-client': 25.0.2
+      '@vaadin/hilla-generator-utils': 25.0.2
+      fast-deep-equal: 3.1.3
+      openapi-types: 12.1.3
+      typescript: 5.9.3
+
+  '@vaadin/hilla-generator-plugin-barrel@25.0.2':
+    dependencies:
+      '@vaadin/hilla-generator-core': 25.0.2
+      '@vaadin/hilla-generator-plugin-backbone': 25.0.2
+      '@vaadin/hilla-generator-utils': 25.0.2
+      typescript: 5.9.3
 
   '@vaadin/hilla-generator-plugin-client@24.8.5':
     dependencies:
