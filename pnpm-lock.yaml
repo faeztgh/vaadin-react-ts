@@ -207,8 +207,8 @@ importers:
         specifier: 25.0.2
         version: 25.0.2
       '@vaadin/hilla-generator-plugin-backbone':
-        specifier: 24.8.5
-        version: 24.8.5
+        specifier: 25.0.2
+        version: 25.0.2
       '@vaadin/hilla-generator-plugin-barrel':
         specifier: 25.0.2
         version: 25.0.2
