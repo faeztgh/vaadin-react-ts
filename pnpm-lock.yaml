@@ -207,8 +207,8 @@ importers:
         specifier: 25.0.2
         version: 25.0.2
       '@vaadin/hilla-generator-plugin-backbone':
-        specifier: 24.8.5
-        version: 24.8.5
+        specifier: 24.9.9
+        version: 24.9.9
       '@vaadin/hilla-generator-plugin-barrel':
         specifier: 25.0.2
         version: 25.0.2
@@ -1728,6 +1728,10 @@ packages:
     resolution: {integrity: sha512-nVyQGkWs6DIz3wLO0UPV28d9Q0bvli3VpC3h6xISXFiiQbnWwiX4mBmIdhv/U89B/jm0+14fxO6jgbVr6LgJlQ==}
     engines: {node: '>= 16.13'}
 
+  '@vaadin/hilla-generator-plugin-backbone@24.9.9':
+    resolution: {integrity: sha512-3E9r4pFTEZngWiwEP/rPkfG0I64sN0Y5oZohlLdQ8vj4T+CMdJMo1nDGlR6hOVlkNZT/8xHrujuuppalpx5mrA==}
+    engines: {node: '>= 16.13'}
+
   '@vaadin/hilla-generator-plugin-backbone@25.0.2':
     resolution: {integrity: sha512-FVYcR19QOYhH/SwrnB49VfsXLMRLA9OH6+SerlsWDS4k/8JarDkI+hyeE3sTBGUDgddJAAPX7p+qxPtyKVsMmg==}
     engines: {node: '>= 16.13'}
@@ -1750,6 +1754,10 @@ packages:
 
   '@vaadin/hilla-generator-plugin-client@24.9.0':
     resolution: {integrity: sha512-QIYExb11oGbbfyvenquIn2glHlvOA00ZdJpqmgvMgwz2lpyxmBr5xO3zqitP0CbYKnJrgpzajgS+2jSFX6u/fw==}
+    engines: {node: '>= 16.13'}
+
+  '@vaadin/hilla-generator-plugin-client@24.9.9':
+    resolution: {integrity: sha512-bRufkPSCILcQwrAK9iRuPX5iGlGQ+svG6SeFhQx7X7MOVzjUkt2NsHOx9ZEy9oSGrPG2ekKJqXyye+9BgWH/QQ==}
     engines: {node: '>= 16.13'}
 
   '@vaadin/hilla-generator-plugin-client@25.0.2':
@@ -5254,6 +5262,15 @@ snapshots:
       openapi-types: 12.1.3
       typescript: 5.8.3
 
+  '@vaadin/hilla-generator-plugin-backbone@24.9.9':
+    dependencies:
+      '@vaadin/hilla-generator-core': 24.9.9
+      '@vaadin/hilla-generator-plugin-client': 24.9.9
+      '@vaadin/hilla-generator-utils': 24.9.9
+      fast-deep-equal: 3.1.3
+      openapi-types: 12.1.3
+      typescript: 5.8.3
+
   '@vaadin/hilla-generator-plugin-backbone@25.0.2':
     dependencies:
       '@vaadin/hilla-generator-core': 25.0.2
@@ -5295,6 +5312,12 @@ snapshots:
     dependencies:
       '@vaadin/hilla-generator-core': 24.9.0
       '@vaadin/hilla-generator-utils': 24.9.0
+      typescript: 5.8.3
+
+  '@vaadin/hilla-generator-plugin-client@24.9.9':
+    dependencies:
+      '@vaadin/hilla-generator-core': 24.9.9
+      '@vaadin/hilla-generator-utils': 24.9.9
       typescript: 5.8.3
 
   '@vaadin/hilla-generator-plugin-client@25.0.2':
