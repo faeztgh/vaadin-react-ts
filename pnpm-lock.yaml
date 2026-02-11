@@ -18,7 +18,7 @@ overrides:
   react: 18.3.1
   react-router: 7.6.1
   '@vaadin/hilla-react-crud': 25.0.2
-  '@vaadin/hilla-file-router': 24.8.5
+  '@vaadin/hilla-file-router': 24.9.10
   construct-style-sheets-polyfill: 3.1.0
   '@vaadin/hilla-react-i18n': 24.8.9
   lit: 3.3.0
@@ -113,8 +113,8 @@ importers:
         specifier: 0.0.19
         version: 0.0.19(lit@3.3.0)
       '@vaadin/hilla-file-router':
-        specifier: 24.8.5
-        version: 24.8.5(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react-router@7.6.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
+        specifier: 24.9.10
+        version: 24.9.10(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react-router@7.6.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
       '@vaadin/hilla-frontend':
         specifier: 24.8.5
         version: 24.8.5(lit@3.3.0)
@@ -1679,8 +1679,8 @@ packages:
   '@vaadin/grid@24.8.4':
     resolution: {integrity: sha512-aIbE6RzCF0RtYiu+xSrZOjXxgFr9zgWp/RTCayHX2PcVxJ3FnAmms8aMRsNW5gmEXGN0muf0gveJjwd/5xd0+Q==}
 
-  '@vaadin/hilla-file-router@24.8.5':
-    resolution: {integrity: sha512-hXdNfnIlDUhANZHahHJpusKqJIbe8GinlvXAartjzCSa6G3Ik1pZ6VdtTP6nRft92xhcF5B0k66AwPulOET8oA==}
+  '@vaadin/hilla-file-router@24.9.10':
+    resolution: {integrity: sha512-OCFKE28jQCMcQQTErK232TXdDPmQ5+7woOZHpZEq4w2nRRd9YR+z3sDAqHlSesrAKhVEVkDst/EkrWXcD2t6lA==}
     peerDependencies:
       react: 18.3.1
       react-dom: 18.3.1
@@ -5173,10 +5173,10 @@ snapshots:
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
-  '@vaadin/hilla-file-router@24.8.5(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react-router@7.6.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)':
+  '@vaadin/hilla-file-router@24.9.10(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react-router@7.6.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@ungap/with-resolvers': 0.1.0
-      '@vaadin/hilla-generator-utils': 24.8.5
+      '@vaadin/hilla-generator-utils': 24.9.10
       '@vaadin/hilla-react-auth': 24.8.5(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react-router@7.6.1(react-dom@18.3.1(react@18.3.1))(react@18.3.1))(react@18.3.1)
       '@vaadin/hilla-react-signals': 25.0.2(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       react: 18.3.1
