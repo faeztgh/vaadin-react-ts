@@ -249,8 +249,8 @@ importers:
         specifier: 3.1.0
         version: 3.1.0
       rollup-plugin-visualizer:
-        specifier: 5.14.0
-        version: 5.14.0(rollup@2.79.2)
+        specifier: 6.0.5
+        version: 6.0.5(rollup@2.79.2)
       strip-css-comments:
         specifier: 5.0.0
         version: 5.0.0
@@ -3140,12 +3140,12 @@ packages:
     resolution: {integrity: sha512-vXRPVd9B1x+aaXeBdmLKNNsai9AH3o0Qikf4u0m1icKqgi3qVA4UhOfwGaPYoAHML1GLMUnR//PDhiMHXN/M6g==}
     engines: {node: '>=11.7.0'}
 
-  rollup-plugin-visualizer@5.14.0:
-    resolution: {integrity: sha512-VlDXneTDaKsHIw8yzJAFWtrzguoJ/LnQ+lMpoVfYJ3jJF4Ihe5oYLAqLklIK/35lgUY+1yEzCkHyZ1j4A5w5fA==}
+  rollup-plugin-visualizer@6.0.5:
+    resolution: {integrity: sha512-9+HlNgKCVbJDs8tVtjQ43US12eqaiHyyiLMdBwQ7vSZPiHMysGNo2E88TAp1si5wx8NAoYriI2A5kuKfIakmJg==}
     engines: {node: '>=18'}
     hasBin: true
     peerDependencies:
-      rolldown: 1.x
+      rolldown: 1.x || ^1.0.0-beta
       rollup: 2.x || 3.x || 4.x
     peerDependenciesMeta:
       rolldown:
@@ -7430,7 +7430,7 @@ snapshots:
 
   rollup-plugin-brotli@3.1.0: {}
 
-  rollup-plugin-visualizer@5.14.0(rollup@2.79.2):
+  rollup-plugin-visualizer@6.0.5(rollup@2.79.2):
     dependencies:
       open: 8.4.2
       picomatch: 4.0.3
