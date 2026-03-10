@@ -9,7 +9,7 @@ overrides:
   '@vaadin/polymer-legacy-adapter': 24.8.4
   '@vaadin/vaadin-development-mode-detector': 2.0.7
   '@vaadin/vaadin-usage-statistics': 2.1.3
-  '@vaadin/react-components': 24.8.4
+  '@vaadin/react-components': 24.9.12
   '@vaadin/react-components-pro': 24.8.4
   '@vaadin/common-frontend': 0.0.21
   react-dom: 18.3.1
@@ -140,8 +140,8 @@ importers:
         specifier: 24.8.4
         version: 24.8.4
       '@vaadin/react-components':
-        specifier: 24.8.4
-        version: 24.8.4(@types/react-dom@18.3.7(@types/react@18.3.23))(@types/react@18.3.23)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+        specifier: 24.9.12
+        version: 24.9.12(@types/react-dom@18.3.7(@types/react@18.3.23))(@types/react@18.3.23)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@vaadin/react-components-pro':
         specifier: 24.8.4
         version: 24.8.4(@types/react-dom@18.3.7(@types/react@18.3.23))(@types/react@18.3.23)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
@@ -2014,8 +2014,8 @@ packages:
       '@types/react-dom':
         optional: true
 
-  '@vaadin/react-components@24.8.4':
-    resolution: {integrity: sha512-MEUwzmXwT0SO+Fvik4VglorA5dGTNU9Xd1pIqFlA1cEHbbe2W7cYwHwtc1wJe3fOCKnR2QmwQLTgiGXqSZPM5g==}
+  '@vaadin/react-components@24.9.12':
+    resolution: {integrity: sha512-ZbwJPmbEF9AFRmm9Qj7rxrELeXQtguLSo2onypuFzxt+3+d3huBlsCTNCukTByCb17Viy1rs95vN7vBqQFZCVg==}
     peerDependencies:
       '@types/react': ^18.2.37 || ^19
       '@types/react-dom': ^18.2.15 || ^19
@@ -2383,6 +2383,10 @@ packages:
 
   dompurify@3.2.6:
     resolution: {integrity: sha512-/2GogDQlohXPZe6D6NOgQvXLPSYBqIWMnZ8zzOhn09REE4eyAzb+Hed3jhoM9OkuaJ8P6ZGTTVWQKAi8ieIzfQ==}
+
+  dompurify@3.3.2:
+    resolution: {integrity: sha512-6obghkliLdmKa56xdbLOpUZ43pAR6xFy1uOrxBaIDjT+yaRuuybLjGS9eVBoSR/UPU5fq3OXClEHLJNGvbxKpQ==}
+    engines: {node: '>=20'}
 
   dunder-proto@1.0.1:
     resolution: {integrity: sha512-KIN/nDJBQRcXw0MLVhZE9iQHmG68qAVIBg9CqmUYjmQIhgij9U5MFvrqkUL5FbtyyzZuOeOt0zdeRe4UY7ct+A==}
@@ -5742,7 +5746,7 @@ snapshots:
       '@vaadin/hilla-frontend': 25.0.5(lit@3.3.0)
       '@vaadin/hilla-lit-form': 24.8.5(lit@3.3.0)
       '@vaadin/hilla-react-form': 25.0.2(lit@3.3.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
-      '@vaadin/react-components': 24.8.4(@types/react-dom@18.3.7(@types/react@18.3.23))(@types/react@18.3.23)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@vaadin/react-components': 24.9.12(@types/react-dom@18.3.7(@types/react@18.3.23))(@types/react@18.3.23)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@vaadin/vaadin-lumo-styles': 24.8.4
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -5888,7 +5892,7 @@ snapshots:
       '@vaadin/vaadin-lumo-styles': 24.8.4
       '@vaadin/vaadin-material-styles': 24.9.10
       '@vaadin/vaadin-themable-mixin': 24.8.4
-      dompurify: 3.2.6
+      dompurify: 3.3.2
       lit: 3.3.0
       marked: 15.0.12
 
@@ -6059,7 +6063,7 @@ snapshots:
       '@vaadin/dashboard': 24.8.4
       '@vaadin/grid-pro': 24.8.4
       '@vaadin/map': 24.8.4
-      '@vaadin/react-components': 24.8.4(@types/react-dom@18.3.7(@types/react@18.3.23))(@types/react@18.3.23)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
+      '@vaadin/react-components': 24.9.12(@types/react-dom@18.3.7(@types/react@18.3.23))(@types/react@18.3.23)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       '@vaadin/rich-text-editor': 24.8.4
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
@@ -6067,7 +6071,7 @@ snapshots:
       '@types/react': 18.3.23
       '@types/react-dom': 18.3.7(@types/react@18.3.23)
 
-  '@vaadin/react-components@24.8.4(@types/react-dom@18.3.7(@types/react@18.3.23))(@types/react@18.3.23)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
+  '@vaadin/react-components@24.9.12(@types/react-dom@18.3.7(@types/react@18.3.23))(@types/react@18.3.23)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
       '@lit/react': 1.0.8(@types/react@18.3.23)
       '@vaadin/a11y-base': 24.8.4
@@ -6629,6 +6633,11 @@ snapshots:
       object-keys: 1.1.1
 
   dompurify@3.2.6:
+    optionalDependencies:
+      '@types/trusted-types': 2.0.7
+    optional: true
+
+  dompurify@3.3.2:
     optionalDependencies:
       '@types/trusted-types': 2.0.7
 
