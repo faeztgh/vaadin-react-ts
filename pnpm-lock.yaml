@@ -5,7 +5,7 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
-  '@vaadin/bundles': 24.8.4
+  '@vaadin/bundles': 24.9.13
   '@vaadin/polymer-legacy-adapter': 24.8.4
   '@vaadin/vaadin-development-mode-detector': 2.0.7
   '@vaadin/vaadin-usage-statistics': 2.1.3
@@ -107,8 +107,8 @@ importers:
         specifier: 3.5.2
         version: 3.5.2
       '@vaadin/bundles':
-        specifier: 24.8.4
-        version: 24.8.4(a4f9417fe2cf99798e28787c16684e2e)
+        specifier: 24.9.13
+        version: 24.9.13(eefadf2067e84c33fa69e1d88cb35ae6)
       '@vaadin/common-frontend':
         specifier: 0.0.21
         version: 0.0.21(lit@3.3.0)
@@ -1418,8 +1418,8 @@ packages:
   '@vaadin/board@24.8.4':
     resolution: {integrity: sha512-aR5ykAfaqVRGiOQl4Ac0HcyBjPbGZpW9iMlp5jbTzYBMge7YzZAaH5bnPm+sqxkNwy+mkOZn4PfiX/abZ12Ayw==}
 
-  '@vaadin/bundles@24.8.4':
-    resolution: {integrity: sha512-qz7Pl+T2HLeLV2E3me8N11UXwnElzfRxGTN16RbDkZSQEeUcr0jDE6AA81FG+UsbrB266jJdV8j5cuoahjBiZw==}
+  '@vaadin/bundles@24.9.13':
+    resolution: {integrity: sha512-IQvHyAIXsgzEKTilmsA6sCwBLGzAmd8ojFLOcSV+v7KOlHZRCt2dl+ZOeO6uX3W8J7jKK5mUKLy7s5vWFWBwKw==}
     peerDependencies:
       '@open-wc/dedupe-mixin': 1.4.0
       '@polymer/polymer': 3.5.2
@@ -1495,7 +1495,7 @@ packages:
       '@vaadin/vertical-layout': 24.8.4
       '@vaadin/virtual-list': 24.8.4
       cookieconsent: 3.1.1
-      dompurify: 3.2.6
+      dompurify: 3.3.2
       highcharts: 9.2.2
       lit: 3.3.0
       marked: 15.0.12
@@ -5037,7 +5037,7 @@ snapshots:
       '@vaadin/component-base': 24.8.4
       lit: 3.3.0
 
-  '@vaadin/bundles@24.8.4(a4f9417fe2cf99798e28787c16684e2e)':
+  '@vaadin/bundles@24.9.13(eefadf2067e84c33fa69e1d88cb35ae6)':
     optionalDependencies:
       '@open-wc/dedupe-mixin': 1.4.0
       '@polymer/polymer': 3.5.2
@@ -5113,7 +5113,6 @@ snapshots:
       '@vaadin/vertical-layout': 24.8.4
       '@vaadin/virtual-list': 24.8.4
       cookieconsent: 3.1.1
-      dompurify: 3.2.6
       highcharts: 9.2.2
       lit: 3.3.0
       marked: 15.0.12
