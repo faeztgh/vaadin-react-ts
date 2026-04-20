@@ -22,9 +22,7 @@
 		<vaadin.version>
 			24.8.5
 		</vaadin.version>
-		<archunit.version>
-			1.4.1
-		</archunit.version>
+		<archunit.version>1.4.2</archunit.version>
 	</properties>
 	<parent>
 		<groupId>
