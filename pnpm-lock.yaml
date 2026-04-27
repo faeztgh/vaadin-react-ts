@@ -30,7 +30,7 @@ overrides:
   proj4: 2.15.0
   '@vaadin/vaadin-themable-mixin': 24.8.4
   '@vaadin/vaadin-lumo-styles': 24.8.4
-  '@vaadin/vaadin-material-styles': 24.9.10
+  '@vaadin/vaadin-material-styles': 24.10.1
   '@vaadin/a11y-base': 24.8.4
   '@vaadin/accordion': 24.8.4
   '@vaadin/app-layout': 24.8.4
@@ -152,8 +152,8 @@ importers:
         specifier: 24.8.4
         version: 24.8.4
       '@vaadin/vaadin-material-styles':
-        specifier: 24.9.10
-        version: 24.9.10
+        specifier: 24.10.1
+        version: 24.10.1
       '@vaadin/vaadin-themable-mixin':
         specifier: 24.8.4
         version: 24.8.4
@@ -2084,8 +2084,8 @@ packages:
   '@vaadin/vaadin-lumo-styles@24.8.4':
     resolution: {integrity: sha512-K1wSTytH3XCURVA3JU4q9SJxVjS9COYgkdQGYwHcPUCKULB7ehT/5DmhQLhenV2yFGtPSY9V/g0BPaoe28Uxig==}
 
-  '@vaadin/vaadin-material-styles@24.9.10':
-    resolution: {integrity: sha512-jkDiWqqHHGPQ/SqILUheb2Nf/yRssosxu42Qe/e3N8j+Hc2uJb3yN4k9DuR8S2dmfGR3WKi16kWxaXKwlkXMYQ==}
+  '@vaadin/vaadin-material-styles@24.10.1':
+    resolution: {integrity: sha512-zON3baJOTH0GrbGMzW4ahYrho8a3XNGNl7wHdYZdZrhp1S8tVPxH+gXbkBh9q+ZT5NyN4hlP4qxeK+b65M+EDg==}
 
   '@vaadin/vaadin-themable-mixin@24.8.4':
     resolution: {integrity: sha512-CInDJlaDbBYRkxnJ8JPqejw0yVrDPfpvsven3vy5cD70vTr0p/iWymbADVKSAFYFp9eQ03obvgM5JWS7qJ5jvw==}
@@ -5013,7 +5013,7 @@ snapshots:
       '@vaadin/component-base': 24.8.4
       '@vaadin/details': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -5025,7 +5025,7 @@ snapshots:
       '@vaadin/button': 24.8.4
       '@vaadin/component-base': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -5041,7 +5041,7 @@ snapshots:
       '@vaadin/overlay': 24.8.4
       '@vaadin/tooltip': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -5053,7 +5053,7 @@ snapshots:
       '@vaadin/component-base': 24.8.4
       '@vaadin/tooltip': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -5156,7 +5156,7 @@ snapshots:
       '@vaadin/a11y-base': 24.8.4
       '@vaadin/component-base': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -5164,7 +5164,7 @@ snapshots:
     dependencies:
       '@vaadin/component-base': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -5174,7 +5174,7 @@ snapshots:
       '@polymer/polymer': 3.5.2
       '@vaadin/component-base': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       highcharts: 9.2.2
       lit: 3.3.0
@@ -5188,7 +5188,7 @@ snapshots:
       '@vaadin/component-base': 24.8.4
       '@vaadin/field-base': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -5200,7 +5200,7 @@ snapshots:
       '@vaadin/component-base': 24.8.4
       '@vaadin/field-base': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -5216,7 +5216,7 @@ snapshots:
       '@vaadin/lit-renderer': 24.8.4
       '@vaadin/overlay': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -5241,7 +5241,7 @@ snapshots:
       '@vaadin/dialog': 24.8.4
       '@vaadin/overlay': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -5256,7 +5256,7 @@ snapshots:
       '@vaadin/lit-renderer': 24.8.4
       '@vaadin/overlay': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -5266,7 +5266,7 @@ snapshots:
       '@polymer/polymer': 3.5.2
       '@vaadin/component-base': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       cookieconsent: 3.1.1
       lit: 3.3.0
 
@@ -5284,7 +5284,7 @@ snapshots:
       '@vaadin/overlay': 24.8.4
       '@vaadin/text-field': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -5296,7 +5296,7 @@ snapshots:
       '@vaadin/component-base': 24.8.4
       '@vaadin/field-base': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -5306,7 +5306,7 @@ snapshots:
       '@vaadin/button': 24.8.4
       '@vaadin/component-base': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -5321,7 +5321,7 @@ snapshots:
       '@vaadin/input-container': 24.8.4
       '@vaadin/overlay': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -5336,7 +5336,7 @@ snapshots:
       '@vaadin/field-base': 24.8.4
       '@vaadin/time-picker': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -5348,7 +5348,7 @@ snapshots:
       '@vaadin/button': 24.8.4
       '@vaadin/component-base': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -5360,7 +5360,7 @@ snapshots:
       '@vaadin/lit-renderer': 24.8.4
       '@vaadin/overlay': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -5370,7 +5370,7 @@ snapshots:
       '@vaadin/component-base': 24.8.4
       '@vaadin/text-field': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -5389,7 +5389,7 @@ snapshots:
       '@vaadin/component-base': 24.8.4
       '@vaadin/overlay': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -5400,7 +5400,7 @@ snapshots:
       '@vaadin/a11y-base': 24.8.4
       '@vaadin/component-base': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -5415,7 +5415,7 @@ snapshots:
       '@vaadin/select': 24.8.4
       '@vaadin/text-field': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -5429,7 +5429,7 @@ snapshots:
       '@vaadin/lit-renderer': 24.8.4
       '@vaadin/text-field': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -5821,7 +5821,7 @@ snapshots:
       '@polymer/polymer': 3.5.2
       '@vaadin/component-base': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -5844,7 +5844,7 @@ snapshots:
       '@polymer/polymer': 3.5.2
       '@vaadin/component-base': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -5854,7 +5854,7 @@ snapshots:
       '@vaadin/component-base': 24.8.4
       '@vaadin/number-field': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
 
   '@vaadin/item@24.8.4':
     dependencies:
@@ -5863,7 +5863,7 @@ snapshots:
       '@vaadin/a11y-base': 24.8.4
       '@vaadin/component-base': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -5875,7 +5875,7 @@ snapshots:
       '@vaadin/component-base': 24.8.4
       '@vaadin/item': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -5893,7 +5893,7 @@ snapshots:
       '@vaadin/password-field': 24.8.4
       '@vaadin/text-field': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -5904,7 +5904,7 @@ snapshots:
       '@vaadin/a11y-base': 24.8.4
       '@vaadin/component-base': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
       ol: 6.13.0
@@ -5914,7 +5914,7 @@ snapshots:
       '@open-wc/dedupe-mixin': 1.4.0
       '@vaadin/component-base': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       dompurify: 3.2.6
       lit: 3.3.0
@@ -5925,7 +5925,7 @@ snapshots:
       '@vaadin/a11y-base': 24.8.4
       '@vaadin/component-base': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -5941,7 +5941,7 @@ snapshots:
       '@vaadin/list-box': 24.8.4
       '@vaadin/overlay': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -5953,7 +5953,7 @@ snapshots:
       '@vaadin/component-base': 24.8.4
       '@vaadin/text-area': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -5966,7 +5966,7 @@ snapshots:
       '@vaadin/component-base': 24.8.4
       '@vaadin/markdown': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -5983,7 +5983,7 @@ snapshots:
       '@vaadin/lit-renderer': 24.8.4
       '@vaadin/overlay': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -5995,7 +5995,7 @@ snapshots:
       '@vaadin/lit-renderer': 24.8.4
       '@vaadin/overlay': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -6008,7 +6008,7 @@ snapshots:
       '@vaadin/field-base': 24.8.4
       '@vaadin/input-container': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -6019,7 +6019,7 @@ snapshots:
       '@vaadin/a11y-base': 24.8.4
       '@vaadin/component-base': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -6033,7 +6033,7 @@ snapshots:
       '@vaadin/field-base': 24.8.4
       '@vaadin/text-field': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -6051,7 +6051,7 @@ snapshots:
       '@vaadin/lit-renderer': 24.8.4
       '@vaadin/overlay': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -6061,7 +6061,7 @@ snapshots:
       '@polymer/polymer': 3.5.2
       '@vaadin/component-base': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -6073,7 +6073,7 @@ snapshots:
       '@vaadin/component-base': 24.8.4
       '@vaadin/field-base': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -6155,7 +6155,7 @@ snapshots:
       '@vaadin/tooltip': 24.8.4
       '@vaadin/upload': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       '@vaadin/vertical-layout': 24.8.4
       '@vaadin/virtual-list': 24.8.4
@@ -6176,7 +6176,7 @@ snapshots:
       '@vaadin/text-field': 24.8.4
       '@vaadin/tooltip': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -6187,7 +6187,7 @@ snapshots:
       '@vaadin/a11y-base': 24.8.4
       '@vaadin/component-base': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -6205,7 +6205,7 @@ snapshots:
       '@vaadin/lit-renderer': 24.8.4
       '@vaadin/overlay': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -6215,7 +6215,7 @@ snapshots:
       '@vaadin/a11y-base': 24.8.4
       '@vaadin/component-base': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -6225,7 +6225,7 @@ snapshots:
       '@polymer/polymer': 3.5.2
       '@vaadin/component-base': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -6237,7 +6237,7 @@ snapshots:
       '@vaadin/component-base': 24.8.4
       '@vaadin/item': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -6249,7 +6249,7 @@ snapshots:
       '@vaadin/scroller': 24.8.4
       '@vaadin/tabs': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -6262,7 +6262,7 @@ snapshots:
       '@vaadin/field-base': 24.8.4
       '@vaadin/input-container': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -6275,7 +6275,7 @@ snapshots:
       '@vaadin/field-base': 24.8.4
       '@vaadin/input-container': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -6290,7 +6290,7 @@ snapshots:
       '@vaadin/item': 24.8.4
       '@vaadin/overlay': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -6303,7 +6303,7 @@ snapshots:
       '@vaadin/overlay': 24.8.4
       '@vaadin/popover': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -6316,7 +6316,7 @@ snapshots:
       '@vaadin/component-base': 24.8.4
       '@vaadin/progress-bar': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -6329,7 +6329,7 @@ snapshots:
       '@vaadin/icon': 24.8.4
       '@vaadin/vaadin-themable-mixin': 24.8.4
 
-  '@vaadin/vaadin-material-styles@24.9.10':
+  '@vaadin/vaadin-material-styles@24.10.1':
     dependencies:
       '@polymer/polymer': 3.5.2
       '@vaadin/component-base': 24.8.4
@@ -6350,7 +6350,7 @@ snapshots:
       '@polymer/polymer': 3.5.2
       '@vaadin/component-base': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
@@ -6361,7 +6361,7 @@ snapshots:
       '@vaadin/component-base': 24.8.4
       '@vaadin/lit-renderer': 24.8.4
       '@vaadin/vaadin-lumo-styles': 24.8.4
-      '@vaadin/vaadin-material-styles': 24.9.10
+      '@vaadin/vaadin-material-styles': 24.10.1
       '@vaadin/vaadin-themable-mixin': 24.8.4
       lit: 3.3.0
 
