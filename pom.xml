@@ -252,7 +252,7 @@
 					spotless-maven-plugin
 				</artifactId>
 				<version>
-					3.4.0
+					3.5.1
 				</version>
 				<configuration>
 					<java>
