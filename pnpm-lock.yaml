@@ -258,14 +258,14 @@ importers:
         specifier: 2.4.4
         version: 2.4.4
       typescript:
-        specifier: 5.9.3
-        version: 5.9.3
+        specifier: 6.0.3
+        version: 6.0.3
       vite:
         specifier: 7.3.2
         version: 7.3.2(terser@5.47.1)
       vite-plugin-checker:
         specifier: 0.12.0
-        version: 0.12.0(meow@13.2.0)(typescript@5.9.3)(vite@7.3.2(terser@5.47.1))
+        version: 0.12.0(meow@13.2.0)(typescript@6.0.3)(vite@7.3.2(terser@5.47.1))
       workbox-build:
         specifier: 7.4.1
         version: 7.4.1(@types/babel__core@7.20.5)
@@ -3519,6 +3519,11 @@ packages:
 
   typescript@5.9.3:
     resolution: {integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
+  typescript@6.0.3:
+    resolution: {integrity: sha512-y2TvuxSZPDyQakkFRPZHKFm+KKVqIisdg9/CZwm9ftvKXLP8NRWj38/ODjNbr43SsoXqNuAisEf1GdCxqWcdBw==}
     engines: {node: '>=14.17'}
     hasBin: true
 
@@ -7897,6 +7902,8 @@ snapshots:
 
   typescript@5.9.3: {}
 
+  typescript@6.0.3: {}
+
   unbox-primitive@1.1.0:
     dependencies:
       call-bound: 1.0.4
@@ -7941,7 +7948,7 @@ snapshots:
 
   validator@13.12.0: {}
 
-  vite-plugin-checker@0.12.0(meow@13.2.0)(typescript@5.9.3)(vite@7.3.2(terser@5.47.1)):
+  vite-plugin-checker@0.12.0(meow@13.2.0)(typescript@6.0.3)(vite@7.3.2(terser@5.47.1)):
     dependencies:
       '@babel/code-frame': 7.27.1
       chokidar: 4.0.3
@@ -7954,7 +7961,7 @@ snapshots:
       vscode-uri: 3.1.0
     optionalDependencies:
       meow: 13.2.0
-      typescript: 5.9.3
+      typescript: 6.0.3
 
   vite@7.3.2(terser@5.47.1):
     dependencies:
