@@ -231,8 +231,8 @@ importers:
         specifier: 25.0.3
         version: 25.0.3(lit@3.3.0)
       '@vaadin/hilla-generator-utils':
-        specifier: 25.0.5
-        version: 25.0.5
+        specifier: 25.0.12
+        version: 25.0.12
       '@vitejs/plugin-react':
         specifier: 5.1.4
         version: 5.1.4(vite@7.3.2(terser@5.47.1))
@@ -1964,16 +1964,16 @@ packages:
     resolution: {integrity: sha512-py3hva2CqYU7LlJhxU/4Zrrrz8DAVNFe0REmTfeFVfPN0vLXUfC9bAaUcLVCDSbRlLpmSctD65sAn81QQm3XmQ==}
     engines: {node: '>= 16.13'}
 
+  '@vaadin/hilla-generator-utils@25.0.12':
+    resolution: {integrity: sha512-7hMsYITYuMjT3qUdU0QjDrfnBQT5NN25KU07coPkNYeTaYJj5G9YT752xXDP8dSIuN8USB9mG87aXIaYrUBV0w==}
+    engines: {node: '>= 16.13'}
+
   '@vaadin/hilla-generator-utils@25.0.2':
     resolution: {integrity: sha512-vgTyBI3HdQ3uvvwJYwsjwQFsG0fvIVrXohGByR9EMMCpPPVrun1czhdHKGYtt++wkSq3U93/GqM9JAUTUgNJDQ==}
     engines: {node: '>= 16.13'}
 
   '@vaadin/hilla-generator-utils@25.0.3':
     resolution: {integrity: sha512-T1hFKcsiMPIJYj1OIIwH9lwTMzaUu6dnBzTj5xA8W6Z99AfVOLsTtpYMC6i4wid9mw97vLu8beFKyQcP4etxbA==}
-    engines: {node: '>= 16.13'}
-
-  '@vaadin/hilla-generator-utils@25.0.5':
-    resolution: {integrity: sha512-LzpfBndzcudS44JA+11jpELLcfcjgNxOtEFGS2KuvbBUICM0+VJ/pW0usVExbk0dhD48sb53FJ7IhxJIJsrmrg==}
     engines: {node: '>= 16.13'}
 
   '@vaadin/hilla-lit-form@24.8.5':
@@ -3129,8 +3129,8 @@ packages:
   protocol-buffers-schema@3.6.1:
     resolution: {integrity: sha512-VG2K63Igkiv9p76tk1lilczEK1cT+kCjKtkdhw1dQZV3k3IXJbd3o6Ho8b9zJZaHSnT2hKe4I+ObmX9w6m5SmQ==}
 
-  pump@3.0.3:
-    resolution: {integrity: sha512-todwxLMY7/heScKmntwQG8CXVkWUOdYxIvY2s0VWAAMh/nd8SoYiRaKjlr7+iCs984f2P8zvrfWcDDYVb73NfA==}
+  pump@3.0.4:
+    resolution: {integrity: sha512-VS7sjc6KR7e1ukRFhQSY5LM2uBWAUPiOPa/A3mkKmiMwSmRFUITt0xuj+/lesgnCv+dPIEYlkzrcyXgquIHMcA==}
 
   punycode@2.3.1:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
@@ -5771,6 +5771,12 @@ snapshots:
       pino-pretty: 10.3.1
       typescript: 5.9.3
 
+  '@vaadin/hilla-generator-utils@25.0.12':
+    dependencies:
+      pino: 9.6.0
+      pino-pretty: 10.3.1
+      typescript: 5.9.3
+
   '@vaadin/hilla-generator-utils@25.0.2':
     dependencies:
       pino: 9.6.0
@@ -5778,12 +5784,6 @@ snapshots:
       typescript: 5.9.3
 
   '@vaadin/hilla-generator-utils@25.0.3':
-    dependencies:
-      pino: 9.6.0
-      pino-pretty: 10.3.1
-      typescript: 5.9.3
-
-  '@vaadin/hilla-generator-utils@25.0.5':
     dependencies:
       pino: 9.6.0
       pino-pretty: 10.3.1
@@ -7370,7 +7370,7 @@ snapshots:
       minimist: 1.2.8
       on-exit-leak-free: 2.1.2
       pino-abstract-transport: 1.2.0
-      pump: 3.0.3
+      pump: 3.0.4
       readable-stream: 4.7.0
       secure-json-parse: 2.7.0
       sonic-boom: 3.8.1
@@ -7417,7 +7417,7 @@ snapshots:
 
   protocol-buffers-schema@3.6.1: {}
 
-  pump@3.0.3:
+  pump@3.0.4:
     dependencies:
       end-of-stream: 1.4.5
       once: 1.4.0
