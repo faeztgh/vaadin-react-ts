@@ -112,7 +112,7 @@
 				sqlite-jdbc
 			</artifactId>
 			<version>
-				3.53.1.0
+				3.53.2.1
 			</version>
 		</dependency>
 		<dependency>
